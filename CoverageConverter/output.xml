@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage profilerVersion="4.0.0.0">
+  <module name="ConTabs">
+    <class name="&lt;Module&gt;" />
+    <class name="ConTabs.Column">
+      <method name="get_SourceType" signature="get_SourceType() : System.Type">
+        <seqpnt vc="263" o="0" />
+      </method>
+      <method name="set_SourceType" signature="set_SourceType(System.Type) : void">
+        <seqpnt vc="111" o="0" />
+      </method>
+      <method name="get_PropertyName" signature="get_PropertyName() : System.String">
+        <seqpnt vc="156" o="0" />
+      </method>
+      <method name="set_PropertyName" signature="set_PropertyName(System.String) : void">
+        <seqpnt vc="111" o="0" />
+      </method>
+      <method name="get_ColumnName" signature="get_ColumnName() : System.String">
+        <seqpnt vc="285" o="0" />
+      </method>
+      <method name="set_ColumnName" signature="set_ColumnName(System.String) : void">
+        <seqpnt vc="113" o="0" />
+      </method>
+      <method name="get_FormatString" signature="get_FormatString() : System.String">
+        <seqpnt vc="94" o="0" />
+      </method>
+      <method name="set_FormatString" signature="set_FormatString(System.String) : void">
+        <seqpnt vc="7" o="0" />
+      </method>
+      <method name="get_Hide" signature="get_Hide() : System.Boolean">
+        <seqpnt vc="1541" o="0" />
+      </method>
+      <method name="set_Hide" signature="set_Hide(System.Boolean) : void">
+        <seqpnt vc="25" o="0" />
+      </method>
+      <method name="get_LongStringBehaviour" signature="get_LongStringBehaviour() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="171" o="0" />
+      </method>
+      <method name="set_LongStringBehaviour" signature="set_LongStringBehaviour(ConTabs.LongStringBehaviour) : void">
+        <seqpnt vc="119" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="464" o="0" />
+      </method>
+      <method name="set_Values" signature="set_Values(System.Collections.Generic.List`1&lt;System.Object&gt;) : void">
+        <seqpnt vc="89" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="193" o="0" />
+        <seqpnt vc="193" o="1" />
+        <seqpnt vc="80" o="30" />
+        <seqpnt vc="113" o="44" />
+        <seqpnt vc="10" o="62" />
+        <seqpnt vc="103" o="76" />
+        <seqpnt vc="193" o="166" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="111" o="0" />
+        <seqpnt vc="111" o="7" />
+        <seqpnt vc="111" o="8" />
+        <seqpnt vc="111" o="20" />
+        <seqpnt vc="111" o="28" />
+        <seqpnt vc="111" o="36" />
+        <seqpnt vc="111" o="44" />
+      </method>
+      <method name="StringValForCol" signature="StringValForCol(System.Object) : System.String">
+        <seqpnt vc="155" o="0" />
+        <seqpnt vc="155" o="1" />
+        <seqpnt vc="155" o="14" />
+        <seqpnt vc="47" o="27" />
+        <seqpnt vc="47" o="28" />
+        <seqpnt vc="108" o="48" />
+        <seqpnt vc="108" o="49" />
+        <seqpnt vc="108" o="102" />
+        <seqpnt vc="14" o="115" />
+        <seqpnt vc="14" o="116" />
+        <seqpnt vc="94" o="125" />
+        <seqpnt vc="94" o="126" />
+        <seqpnt vc="155" o="156" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="121" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Column/&lt;&gt;c">
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="224" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="2469" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Columns">
+      <method name="get_Item" signature="get_Item(System.Int32) : ConTabs.Column">
+        <seqpnt vc="42" o="0" />
+        <seqpnt vc="42" o="1" />
+        <seqpnt vc="42" o="2" />
+        <seqpnt vc="1" o="12" />
+        <seqpnt vc="1" o="13" />
+        <seqpnt vc="1" o="14" />
+        <seqpnt vc="41" o="21" />
+      </method>
+      <method name="get_Item" signature="get_Item(System.String) : ConTabs.Column">
+        <seqpnt vc="12" o="0" />
+        <seqpnt vc="12" o="1" />
+        <seqpnt vc="11" o="11" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="32" o="0" />
+        <seqpnt vc="32" o="7" />
+        <seqpnt vc="32" o="8" />
+        <seqpnt vc="32" o="16" />
+      </method>
+      <method name="FindColByName" signature="FindColByName(System.String) : ConTabs.Column">
+        <seqpnt vc="12" o="0" />
+        <seqpnt vc="12" o="1" />
+        <seqpnt vc="12" o="3" />
+        <seqpnt vc="12" o="4" />
+        <seqpnt vc="36" o="13" />
+        <seqpnt vc="36" o="21" />
+        <seqpnt vc="36" o="22" />
+        <seqpnt vc="10" o="38" />
+        <seqpnt vc="26" o="43" />
+        <seqpnt vc="1" o="61" />
+        <seqpnt vc="26" o="63" />
+        <seqpnt vc="38" o="64" />
+        <seqpnt vc="2" o="90" />
+        <seqpnt vc="1" o="100" />
+        <seqpnt vc="1" o="105" />
+        <seqpnt vc="11" o="112" />
+      </method>
+    </class>
+    <class name="ConTabs.Corners">
+      <method name="get_CornerTopLeft" signature="get_CornerTopLeft() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_CornerTopLeft" signature="set_CornerTopLeft(System.Char) : void">
+        <seqpnt vc="2" o="0" />
+        <seqpnt vc="2" o="1" />
+        <seqpnt vc="2" o="15" />
+      </method>
+      <method name="get_CornerTopRight" signature="get_CornerTopRight() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_CornerTopRight" signature="set_CornerTopRight(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_CornerBottomLeft" signature="get_CornerBottomLeft() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_CornerBottomLeft" signature="set_CornerBottomLeft(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_CornerBottomRight" signature="get_CornerBottomRight() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_CornerBottomRight" signature="set_CornerBottomRight(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_Intersection" signature="get_Intersection() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_Intersection" signature="set_Intersection(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_TeeNoUp" signature="get_TeeNoUp() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_TeeNoUp" signature="set_TeeNoUp(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_TeeNoRight" signature="get_TeeNoRight() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_TeeNoRight" signature="set_TeeNoRight(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_TeeNoDown" signature="get_TeeNoDown() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_TeeNoDown" signature="set_TeeNoDown(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_TeeNoLeft" signature="get_TeeNoLeft() : System.Char">
+        <seqpnt vc="0" o="0" />
+        <seqpnt vc="0" o="1" />
+        <seqpnt vc="0" o="17" />
+      </method>
+      <method name="set_TeeNoLeft" signature="set_TeeNoLeft(System.Char) : void">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="1" />
+        <seqpnt vc="1" o="15" />
+      </method>
+      <method name="get_Item" signature="get_Item(System.Int32,System.Int32) : System.Char">
+        <seqpnt vc="168" o="0" />
+        <seqpnt vc="168" o="1" />
+        <seqpnt vc="168" o="17" />
+      </method>
+      <method name="SetAllCorners" signature="SetAllCorners(System.Char) : void">
+        <seqpnt vc="37" o="0" />
+        <seqpnt vc="37" o="1" />
+        <seqpnt vc="111" o="5" />
+        <seqpnt vc="111" o="6" />
+        <seqpnt vc="333" o="10" />
+        <seqpnt vc="333" o="11" />
+        <seqpnt vc="333" o="25" />
+        <seqpnt vc="333" o="26" />
+        <seqpnt vc="444" o="30" />
+        <seqpnt vc="111" o="49" />
+        <seqpnt vc="111" o="50" />
+        <seqpnt vc="148" o="54" />
+        <seqpnt vc="37" o="73" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="38" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.LongStringBehaviour">
+      <method name="" signature=" : ">
+        <seqpnt vc="47" o="0" />
+      </method>
+      <method name="set_Method" signature="set_Method(System.Func`4&lt;System.String,System.String,System.Int32,System.String&gt;) : void">
+        <seqpnt vc="119" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="170" o="0" />
+      </method>
+      <method name="set_Width" signature="set_Width(System.Int32) : void">
+        <seqpnt vc="8" o="0" />
+      </method>
+      <method name="get_EllipsisString" signature="get_EllipsisString() : System.String">
+        <seqpnt vc="47" o="0" />
+      </method>
+      <method name="set_EllipsisString" signature="set_EllipsisString(System.String) : void">
+        <seqpnt vc="2" o="0" />
+      </method>
+      <method name="get_Default" signature="get_Default() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="112" o="0" />
+      </method>
+      <method name="get_DoNothing" signature="get_DoNothing() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="112" o="0" />
+      </method>
+      <method name="get_Truncate" signature="get_Truncate() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="2" o="0" />
+      </method>
+      <method name="get_TruncateWithEllipsis" signature="get_TruncateWithEllipsis() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="2" o="0" />
+      </method>
+      <method name="get_Wrap" signature="get_Wrap() : ConTabs.LongStringBehaviour">
+        <seqpnt vc="3" o="0" />
+      </method>
+      <method name="PassThrough" signature="PassThrough(System.String,System.String,System.Int32) : System.String">
+        <seqpnt vc="40" o="0" />
+        <seqpnt vc="40" o="1" />
+        <seqpnt vc="40" o="5" />
+      </method>
+      <method name="TruncateString" signature="TruncateString(System.String,System.String,System.Int32) : System.String">
+        <seqpnt vc="4" o="0" />
+        <seqpnt vc="4" o="1" />
+        <seqpnt vc="1" o="17" />
+        <seqpnt vc="3" o="21" />
+        <seqpnt vc="3" o="32" />
+        <seqpnt vc="4" o="56" />
+      </method>
+      <method name="WrapString" signature="WrapString(System.String,System.String,System.Int32) : System.String">
+        <seqpnt vc="3" o="0" />
+        <seqpnt vc="3" o="1" />
+        <seqpnt vc="1" o="17" />
+        <seqpnt vc="2" o="21" />
+        <seqpnt vc="3" o="31" />
+      </method>
+      <method name="ProcessString" signature="ProcessString(System.String) : System.String">
+        <seqpnt vc="47" o="0" />
+        <seqpnt vc="47" o="1" />
+        <seqpnt vc="47" o="28" />
+      </method>
+      <method name="WordWrap" signature="WordWrap(System.String,System.Int32) : System.String">
+        <seqpnt vc="2" o="0" />
+        <seqpnt vc="2" o="1" />
+        <seqpnt vc="2" o="13" />
+        <seqpnt vc="2" o="15" />
+        <seqpnt vc="2" o="21" />
+        <seqpnt vc="33" o="28" />
+        <seqpnt vc="33" o="29" />
+        <seqpnt vc="33" o="34" />
+        <seqpnt vc="6" o="55" />
+        <seqpnt vc="6" o="56" />
+        <seqpnt vc="6" o="66" />
+        <seqpnt vc="6" o="67" />
+        <seqpnt vc="4" o="123" />
+        <seqpnt vc="6" o="139" />
+        <seqpnt vc="6" o="151" />
+        <seqpnt vc="6" o="153" />
+        <seqpnt vc="1" o="156" />
+        <seqpnt vc="1" o="157" />
+        <seqpnt vc="1" o="185" />
+        <seqpnt vc="1" o="197" />
+        <seqpnt vc="1" o="209" />
+        <seqpnt vc="7" o="210" />
+        <seqpnt vc="6" o="226" />
+        <seqpnt vc="6" o="241" />
+        <seqpnt vc="33" o="242" />
+        <seqpnt vc="33" o="251" />
+        <seqpnt vc="33" o="261" />
+        <seqpnt vc="33" o="262" />
+        <seqpnt vc="35" o="266" />
+        <seqpnt vc="2" o="281" />
+        <seqpnt vc="2" o="291" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="2" o="0" />
+        <seqpnt vc="2" o="1" />
+        <seqpnt vc="2" o="7" />
+        <seqpnt vc="18" o="14" />
+        <seqpnt vc="18" o="15" />
+        <seqpnt vc="18" o="24" />
+        <seqpnt vc="2" o="34" />
+        <seqpnt vc="2" o="35" />
+        <seqpnt vc="2" o="49" />
+        <seqpnt vc="16" o="59" />
+        <seqpnt vc="16" o="70" />
+        <seqpnt vc="16" o="86" />
+        <seqpnt vc="15" o="99" />
+        <seqpnt vc="15" o="100" />
+        <seqpnt vc="15" o="108" />
+        <seqpnt vc="15" o="122" />
+        <seqpnt vc="1" o="125" />
+        <seqpnt vc="1" o="126" />
+        <seqpnt vc="1" o="146" />
+        <seqpnt vc="16" o="147" />
+        <seqpnt vc="16" o="151" />
+        <seqpnt vc="18" o="152" />
+        <seqpnt vc="2" o="160" />
+      </method>
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="1" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1">
+      <method name="get_Columns" signature="get_Columns() : ConTabs.Columns">
+        <seqpnt vc="551" o="0" />
+      </method>
+      <method name="set_Columns" signature="set_Columns(ConTabs.Columns) : void">
+        <seqpnt vc="32" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="440" o="0" />
+      </method>
+      <method name="get_TableStyle" signature="get_TableStyle() : ConTabs.Style">
+        <seqpnt vc="19" o="0" />
+      </method>
+      <method name="set_TableStyle" signature="set_TableStyle(ConTabs.Style) : void">
+        <seqpnt vc="38" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="62" o="0" />
+        <seqpnt vc="62" o="1" />
+        <seqpnt vc="62" o="10" />
+      </method>
+      <method name="set_Data" signature="set_Data(System.Collections.Generic.IEnumerable`1&lt;T&gt;) : void">
+        <seqpnt vc="24" o="0" />
+        <seqpnt vc="24" o="1" />
+        <seqpnt vc="24" o="8" />
+        <seqpnt vc="24" o="9" />
+        <seqpnt vc="89" o="29" />
+        <seqpnt vc="89" o="42" />
+        <seqpnt vc="89" o="43" />
+        <seqpnt vc="89" o="83" />
+        <seqpnt vc="113" o="84" />
+        <seqpnt vc="24" o="110" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="6" o="0" />
+        <seqpnt vc="6" o="1" />
+        <seqpnt vc="6" o="9" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="26" o="0" />
+        <seqpnt vc="26" o="1" />
+        <seqpnt vc="24" o="17" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="32" o="0" />
+        <seqpnt vc="32" o="7" />
+        <seqpnt vc="32" o="8" />
+        <seqpnt vc="32" o="20" />
+        <seqpnt vc="32" o="41" />
+        <seqpnt vc="32" o="120" />
+        <seqpnt vc="32" o="133" />
+        <seqpnt vc="2" o="151" />
+        <seqpnt vc="30" o="157" />
+      </method>
+      <method name="ToString" signature="ToString() : System.String">
+        <seqpnt vc="18" o="0" />
+        <seqpnt vc="18" o="1" />
+        <seqpnt vc="18" o="16" />
+      </method>
+      <method name="" signature=" : " />
+    </class>
+    <class name="ConTabs.Table`1/OutputBuilder`1">
+      <method name="BuildOutput" signature="BuildOutput(ConTabs.Table`1&lt;T2&gt;,ConTabs.Style) : System.String">
+        <seqpnt vc="18" o="0" />
+        <seqpnt vc="18" o="1" />
+        <seqpnt vc="18" o="9" />
+        <seqpnt vc="18" o="23" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="18" o="0" />
+        <seqpnt vc="18" o="7" />
+        <seqpnt vc="18" o="8" />
+        <seqpnt vc="18" o="15" />
+        <seqpnt vc="18" o="22" />
+        <seqpnt vc="18" o="33" />
+        <seqpnt vc="18" o="41" />
+        <seqpnt vc="18" o="48" />
+        <seqpnt vc="18" o="55" />
+        <seqpnt vc="18" o="62" />
+        <seqpnt vc="18" o="70" />
+        <seqpnt vc="18" o="77" />
+        <seqpnt vc="5" o="116" />
+        <seqpnt vc="5" o="117" />
+        <seqpnt vc="5" o="124" />
+        <seqpnt vc="5" o="131" />
+        <seqpnt vc="13" o="134" />
+        <seqpnt vc="13" o="135" />
+        <seqpnt vc="16" o="139" />
+        <seqpnt vc="16" o="140" />
+        <seqpnt vc="16" o="148" />
+        <seqpnt vc="16" o="149" />
+        <seqpnt vc="29" o="153" />
+        <seqpnt vc="13" o="176" />
+        <seqpnt vc="18" o="177" />
+        <seqpnt vc="18" o="185" />
+      </method>
+      <method name="NewLine" signature="NewLine() : void">
+        <seqpnt vc="77" o="0" />
+        <seqpnt vc="77" o="1" />
+        <seqpnt vc="77" o="18" />
+      </method>
+      <method name="HLine" signature="HLine(ConTabs.Table`1/OutputBuilder`1/TopMidBot&lt;T,T2&gt;) : void">
+        <seqpnt vc="54" o="0" />
+        <seqpnt vc="54" o="1" />
+        <seqpnt vc="54" o="21" />
+        <seqpnt vc="114" o="25" />
+        <seqpnt vc="114" o="26" />
+        <seqpnt vc="114" o="78" />
+        <seqpnt vc="60" o="103" />
+        <seqpnt vc="114" o="123" />
+        <seqpnt vc="114" o="124" />
+        <seqpnt vc="168" o="128" />
+        <seqpnt vc="54" o="151" />
+        <seqpnt vc="54" o="171" />
+      </method>
+      <method name="NoDataLine" signature="NoDataLine() : void">
+        <seqpnt vc="5" o="0" />
+        <seqpnt vc="5" o="1" />
+        <seqpnt vc="5" o="7" />
+        <seqpnt vc="5" o="55" />
+        <seqpnt vc="5" o="78" />
+        <seqpnt vc="5" o="89" />
+        <seqpnt vc="5" o="101" />
+        <seqpnt vc="5" o="197" />
+      </method>
+      <method name="Headers" signature="Headers() : void">
+        <seqpnt vc="18" o="0" />
+        <seqpnt vc="18" o="1" />
+        <seqpnt vc="18" o="24" />
+        <seqpnt vc="18" o="25" />
+        <seqpnt vc="38" o="44" />
+        <seqpnt vc="38" o="52" />
+        <seqpnt vc="38" o="53" />
+        <seqpnt vc="38" o="151" />
+        <seqpnt vc="56" o="152" />
+        <seqpnt vc="18" o="178" />
+      </method>
+      <method name="DataRow" signature="DataRow(System.Int32) : void">
+        <seqpnt vc="16" o="13" />
+        <seqpnt vc="16" o="14" />
+        <seqpnt vc="16" o="48" />
+        <seqpnt vc="16" o="86" />
+        <seqpnt vc="18" o="90" />
+        <seqpnt vc="18" o="91" />
+        <seqpnt vc="18" o="100" />
+        <seqpnt vc="18" o="107" />
+        <seqpnt vc="18" o="108" />
+        <seqpnt vc="34" o="112" />
+        <seqpnt vc="16" o="122" />
+      </method>
+      <method name="DataLine" signature="DataLine(System.Collections.Generic.List`1&lt;ConTabs.Table`1/OutputBuilder`1/CellParts&lt;T,T2&gt;&gt;,System.Int32) : void">
+        <seqpnt vc="18" o="0" />
+        <seqpnt vc="18" o="1" />
+        <seqpnt vc="18" o="24" />
+        <seqpnt vc="18" o="25" />
+        <seqpnt vc="31" o="34" />
+        <seqpnt vc="31" o="42" />
+        <seqpnt vc="31" o="43" />
+        <seqpnt vc="31" o="51" />
+        <seqpnt vc="31" o="139" />
+        <seqpnt vc="49" o="140" />
+        <seqpnt vc="18" o="166" />
+      </method>
+      <method name="GetCorner" signature="GetCorner(ConTabs.Table`1/OutputBuilder`1/TopMidBot&lt;T,T2&gt;,ConTabs.Table`1/OutputBuilder`1/LeftCentreRight&lt;T,T2&gt;) : System.Char">
+        <seqpnt vc="168" o="0" />
+        <seqpnt vc="168" o="1" />
+        <seqpnt vc="168" o="22" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/OutputBuilder`1/CellParts">
+      <method name="" signature=" : ">
+        <seqpnt vc="31" o="0" />
+      </method>
+      <method name="set_ColMaxWidth" signature="set_ColMaxWidth(System.Int32) : void">
+        <seqpnt vc="25" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="25" o="0" />
+      </method>
+      <method name="get__value" signature="get__value() : System.String">
+        <seqpnt vc="83" o="0" />
+      </method>
+      <method name="set__value" signature="set__value(System.String) : void">
+        <seqpnt vc="25" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="83" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="25" o="0" />
+        <seqpnt vc="25" o="7" />
+        <seqpnt vc="25" o="8" />
+        <seqpnt vc="25" o="16" />
+        <seqpnt vc="25" o="24" />
+      </method>
+      <method name="GetLine" signature="GetLine(System.Int32) : System.String">
+        <seqpnt vc="31" o="0" />
+        <seqpnt vc="31" o="1" />
+        <seqpnt vc="27" o="16" />
+        <seqpnt vc="4" o="27" />
+        <seqpnt vc="31" o="35" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/OutputBuilder`1/&lt;&gt;c">
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="16" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="25" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/OutputBuilder`1/&lt;&gt;c__DisplayClass9_0">
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="25" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/&lt;&gt;c">
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="1541" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="148" o="0" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="111" o="0" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/&lt;&gt;c__DisplayClass14_0">
+      <method name="" signature=" : " />
+      <method name="" signature=" : ">
+        <seqpnt vc="120" o="0" />
+        <seqpnt vc="120" o="1" />
+        <seqpnt vc="120" o="12" />
+        <seqpnt vc="120" o="30" />
+        <seqpnt vc="120" o="45" />
+      </method>
+    </class>
+    <class name="ConTabs.Table`1/&lt;GetDeclaredAndInheritedProperties&gt;d__19">
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="MoveNext" signature="MoveNext() : System.Boolean">
+        <seqpnt vc="32" o="36" />
+        <seqpnt vc="65" o="42" />
+        <seqpnt vc="65" o="43" />
+        <seqpnt vc="65" o="44" />
+        <seqpnt vc="148" o="76" />
+        <seqpnt vc="148" o="93" />
+        <seqpnt vc="148" o="94" />
+        <seqpnt vc="148" o="125" />
+        <seqpnt vc="213" o="133" />
+        <seqpnt vc="65" o="160" />
+        <seqpnt vc="65" o="189" />
+        <seqpnt vc="97" o="190" />
+        <seqpnt vc="32" o="209" />
+      </method>
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+      <method name="" signature=" : " />
+    </class>
+    <class name="ConTabs.Style">
+      <method name="get_Wall" signature="get_Wall() : System.Char">
+        <seqpnt vc="115" o="0" />
+      </method>
+      <method name="set_Wall" signature="set_Wall(System.Char) : void">
+        <seqpnt vc="38" o="0" />
+      </method>
+      <method name="get_Floor" signature="get_Floor() : System.Char">
+        <seqpnt vc="114" o="0" />
+      </method>
+      <method name="set_Floor" signature="set_Floor(System.Char) : void">
+        <seqpnt vc="38" o="0" />
+      </method>
+      <method name="get_Corners" signature="get_Corners() : ConTabs.Corners">
+        <seqpnt vc="206" o="0" />
+      </method>
+      <method name="set_Corners" signature="set_Corners(ConTabs.Corners) : void">
+        <seqpnt vc="38" o="0" />
+      </method>
+      <method name="get_Default" signature="get_Default() : ConTabs.Style">
+        <seqpnt vc="34" o="0" />
+      </method>
+      <method name="get_Heavy" signature="get_Heavy() : ConTabs.Style">
+        <seqpnt vc="2" o="0" />
+      </method>
+      <method name="get_UnicodePipes" signature="get_UnicodePipes() : ConTabs.Style">
+        <seqpnt vc="1" o="0" />
+      </method>
+      <method name="get_CornerTopLeft" signature="get_CornerTopLeft() : System.Char" />
+      <method name="set_CornerTopLeft" signature="set_CornerTopLeft(System.Char) : void" />
+      <method name="get_CornerTopRight" signature="get_CornerTopRight() : System.Char" />
+      <method name="set_CornerTopRight" signature="set_CornerTopRight(System.Char) : void" />
+      <method name="get_CornerBottomLeft" signature="get_CornerBottomLeft() : System.Char" />
+      <method name="set_CornerBottomLeft" signature="set_CornerBottomLeft(System.Char) : void" />
+      <method name="get_CornerBottomRight" signature="get_CornerBottomRight() : System.Char" />
+      <method name="set_CornerBottomRight" signature="set_CornerBottomRight(System.Char) : void" />
+      <method name="get_Intersection" signature="get_Intersection() : System.Char" />
+      <method name="set_Intersection" signature="set_Intersection(System.Char) : void" />
+      <method name="get_TeeNoUp" signature="get_TeeNoUp() : System.Char" />
+      <method name="set_TeeNoUp" signature="set_TeeNoUp(System.Char) : void" />
+      <method name="get_TeeNoRight" signature="get_TeeNoRight() : System.Char" />
+      <method name="set_TeeNoRight" signature="set_TeeNoRight(System.Char) : void" />
+      <method name="get_TeeNoDown" signature="get_TeeNoDown() : System.Char" />
+      <method name="set_TeeNoDown" signature="set_TeeNoDown(System.Char) : void" />
+      <method name="get_TeeNoLeft" signature="get_TeeNoLeft() : System.Char" />
+      <method name="set_TeeNoLeft" signature="set_TeeNoLeft(System.Char) : void" />
+      <method name="" signature=" : ">
+        <seqpnt vc="37" o="0" />
+        <seqpnt vc="37" o="7" />
+        <seqpnt vc="37" o="8" />
+        <seqpnt vc="37" o="16" />
+        <seqpnt vc="37" o="24" />
+        <seqpnt vc="37" o="36" />
+        <seqpnt vc="37" o="49" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="7" />
+        <seqpnt vc="1" o="8" />
+        <seqpnt vc="1" o="16" />
+        <seqpnt vc="1" o="24" />
+        <seqpnt vc="1" o="32" />
+      </method>
+      <method name="" signature=" : " />
+    </class>
+    <class name="ConTabs.Exceptions.ColumnNotFoundException">
+      <method name="get_Message" signature="get_Message() : System.String">
+        <seqpnt vc="2" o="0" />
+        <seqpnt vc="2" o="1" />
+        <seqpnt vc="1" o="11" />
+        <seqpnt vc="1" o="12" />
+        <seqpnt vc="1" o="31" />
+        <seqpnt vc="1" o="32" />
+        <seqpnt vc="2" o="56" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="7" />
+        <seqpnt vc="1" o="14" />
+        <seqpnt vc="1" o="15" />
+        <seqpnt vc="1" o="22" />
+      </method>
+      <method name="" signature=" : ">
+        <seqpnt vc="1" o="0" />
+        <seqpnt vc="1" o="7" />
+        <seqpnt vc="1" o="14" />
+        <seqpnt vc="1" o="15" />
+        <seqpnt vc="1" o="22" />
+        <seqpnt vc="1" o="29" />
+      </method>
+    </class>
+    <class name="ConTabs.Exceptions.PublicPropertiesNotFoundException">
+      <method name="get_Message" signature="get_Message() : System.String">
+        <seqpnt vc="1" o="0" />
+      </method>
+      <method name="" signature=" : " />
+    </class>
+    <class name="&lt;PrivateImplementationDetails&gt;" />
+  </module>
+</coverage>

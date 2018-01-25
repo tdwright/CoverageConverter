@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoverageConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "coverage.xml"
+    }
+  }
+}
